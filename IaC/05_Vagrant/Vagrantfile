@@ -5,7 +5,7 @@ machines = {
   "ansible"   => {"memory" => "512", "cpu" => "2", "ip" => "30", "image" => "ubuntu/jammy64"},
   "srvweb01" => {"memory" => "512",  "cpu" => "1", "ip" => "31", "image" => "ubuntu/jammy64"},
   "srvweb02" => {"memory" => "512",  "cpu" => "1", "ip" => "32", "image" => "debian/bullseye64"},
-  "srvbd" => {"memory" => "512",  "cpu" => "1", "ip" => "33", "image" => "centos/7"}
+  "srvbd" => {"memory" => "512",  "cpu" => "1", "ip" => "33", "image" => "ubuntu/jammy64"}
 }
 
 Vagrant.configure("2") do |config|
